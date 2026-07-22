@@ -15,7 +15,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ConsultationModal from './components/ConsultationModal';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
-import BackToTop from './components/BackToTop';
 import Preloader from './components/Preloader';
 import SectionDots from './components/SectionDots';
 import GrainOverlay from './components/GrainOverlay';
@@ -128,9 +127,6 @@ export default function App() {
 
       {/* Floating WhatsApp Quick-Contact */}
       <FloatingWhatsApp />
-
-      {/* Mobile-only Back-to-Top arrow */}
-      <BackToTop />
     </div>
   );
 }
